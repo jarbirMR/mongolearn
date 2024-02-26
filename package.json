@@ -1,0 +1,21 @@
+{
+    "name": "mongolearn",
+    "version": "0.0.1",
+    "description": "Esta es mi primera aplicaion de Node",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+    },
+    "author": "Jarbir mejia",
+    "license": "ISC",
+    "devDependencies": {
+      "nodemon": "^3.0.3"
+    },
+    "dependencies": {
+      "get-age": "^1.0.1",
+      "mongoose": "^8.2.0",
+      "uuid": "^9.0.1"
+    }
+  }
